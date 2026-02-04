@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #2929de;
+    color: rgb(247, 246, 250);
+}
+
+header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: #03030a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero span {
+    color: #00bcd4;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About */
+.about {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Skills */
+.skills {
+    padding: 60px;
+    background: #dad5d5;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin: 10px 0;
+}
+
+/* Projects */
+.projects {
+    padding: 60px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/* Contact */
+.contact {
+    padding: 60px;
+    background: #d5d1d1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
