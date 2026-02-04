@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f6;
+    color: rgb(4, 5, 7);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: rgb(250, 249, 249);
+    color: #2d2de4;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #6e6b6b;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
